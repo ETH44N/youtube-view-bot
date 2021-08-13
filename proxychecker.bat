@@ -1,0 +1,2 @@
+python getValideProxies.py
+pause

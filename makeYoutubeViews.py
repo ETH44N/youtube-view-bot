@@ -67,7 +67,7 @@ def makeView(proxy,i,id,watchTime):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--mute-audio")
     chrome_options.add_argument('--proxy-server=%s' % proxy)
-    driver = webdriver.Chrome(executable_path=r'Free/chromedriver.exe', options=chrome_options)
+    driver = webdriver.Chrome(executable_path=r'chromedriver.exe', options=chrome_options)
     try:
         driver.get(f'https://youtu.be/{id}')
         if driver.title == "youtu.be":

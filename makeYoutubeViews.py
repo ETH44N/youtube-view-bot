@@ -12,9 +12,6 @@ if __name__ == "__main__":
     with open('windows.txt', 'w') as f:
         f.write(f"{int(0)}")
         f.close()
-    rpc = Presence("716758564068392971")
-    rpc.connect()
-    rpc.update(state="YOUTUBE VIEW BOT",large_text="By ETH4N",small_text="Online")
 
 class getInfo():
 

@@ -1,4 +1,3 @@
-from selenium import webdriver
 from threading import Thread
 import requests
 

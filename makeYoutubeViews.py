@@ -1,5 +1,4 @@
 from selenium import webdriver
-from pypresence import Presence
 from time import sleep 
 import threading, colorama
 from selenium.common.exceptions import WebDriverException
